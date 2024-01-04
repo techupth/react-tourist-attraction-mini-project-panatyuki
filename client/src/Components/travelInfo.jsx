@@ -7,13 +7,19 @@ const TravelInfo = ({ title, url, description, tag, photos }) => {
       style={{
         display: "flex",
         flexDirection: "row",
-        borderBlockStyle: "double",
-        padding: "1%",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "2%",
+        margin: "auto",
       }}
     >
       <img
         src={photos[0]}
-        style={{ width: "10%", borderRadius: "8px", marginRight: "32px" }}
+        style={{
+          width: "20%",
+          borderRadius: "8px",
+          marginRight: "32px",
+        }}
       />
       <div>
         <h2
